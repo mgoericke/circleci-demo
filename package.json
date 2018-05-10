@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "serve": "serverless offline start"
+    "serve": "serverless offline start",
+    "deploy": "serverless deploy"
   },
   "author": "",
   "license": "ISC",
