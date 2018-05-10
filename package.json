@@ -1,0 +1,21 @@
+{
+  "name": "circleci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "serverless offline start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "serverless": "^1.27.2",
+    "serverless-offline": "^3.20.3"
+  },
+  "dependencies": {
+    "npm": "^6.0.1",
+    "unique-names-generator": "^1.0.13"
+  }
+}
