@@ -15,9 +15,9 @@ describe('handler', () => {
             expect(response.statusCode).toEqual(200);
         });
     });
-    test('the response should contain a `name` key', () => {
+/*    test('the response should contain a `name` key', () => {
         handler({}, {}, (err, response) => {
             expect(response).toMatchSnapshot();
         });
-    });
+    });*/
 });
